@@ -16,7 +16,7 @@ export class AuthController {
   @Post('login')
   @HttpCode(HttpStatus.OK)
   login() {
-    return 'dologi';
+    return 'logado com sucesso';
     // return this.authService.login();
   }
 }
